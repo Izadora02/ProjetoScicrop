@@ -1,0 +1,99 @@
+.max-w {
+  max-width: 1400px;
+}
+
+.titulo-body {
+  margin-top: 100px;
+  font-family: "poppins-bold";
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 84%;
+}
+
+.p-body {
+  color: var(--txt-color);
+  margin: 34px 0 142px;
+  width: 50%;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-pink {
+  background-color: #f9acb545;
+  padding: 50px 0px;
+}
+
+.maps-titulo {
+  font-family: "poppins-bold";
+  color: #e07f8c;
+  margin-top: 50px;
+}
+
+.maps-img {
+  width: 100%;
+  height: auto;
+}
+
+.maps-container {
+  width: 92%;
+  margin: auto;
+}
+
+.maps-titulo-2 {
+  font-family: "poppins-bold";
+  margin: 20px 0 80px;
+}
+
+.back-gradient {
+  background: linear-gradient(90deg, #ffc9d0 -49.18%, #d10050 130.41%);
+  box-shadow: 1px 14px 42px #ffc9d0;
+}
+
+.titulo-inscrever {
+  color: var(--white);
+  font-family: "poppins-semibold";
+  margin-bottom: 50px;
+}
+
+.btn-inscrever {
+  background: var(--primary-color);
+  font-family: "poppins-medium";
+  color: var(--white);
+  border: none;
+  border-radius: 80px;
+  padding: 9px 26px;
+  cursor: pointer;
+}
+
+.input-inscrever {
+  font-family: "poppins-medium";
+  background: transparent;
+  border-radius: 80px;
+  border: 1px solid #f0c53e;
+  padding: 9px 26px;
+  margin-right: 50px;
+}
+
+.input-inscrever::placeholder {
+  color: var(--white);
+}
+
+@media (max-width: 650px) {
+  .btn-inscrever {
+    margin-top: 41px;
+  }
+
+  .input-inscrever {
+    margin-right: 0;
+    display: block;
+    margin: auto;
+  }
+}

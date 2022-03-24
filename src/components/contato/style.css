@@ -1,0 +1,52 @@
+.btn-form {
+  background: var(--primary-color);
+  font-family: "poppins-medium";
+  color: var(--white);
+  border: none;
+  border-radius: 80px;
+  padding: 9px 26px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.titulo-form {
+  font-family: "poppins-bold";
+  margin-bottom: 30px;
+}
+
+.p-form {
+  font-family: "poppins-medium";
+  margin-bottom: 50px;
+}
+
+.forms-contato {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.forms-contato input {
+  border-radius: 80px;
+  border: 1px solid #f0c53e;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.forms-contato label {
+  font-family: "poppins-medium";
+  font-size: 13px;
+  margin: 10px;
+}
+
+textarea {
+  border-radius: 20px;
+  border: 1px solid #f0c53e;
+  margin-bottom: 50px;
+}
+
+.max-w {
+  max-width: 1400px;
+  padding: 70px 0;
+}

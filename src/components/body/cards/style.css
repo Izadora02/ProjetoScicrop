@@ -1,0 +1,25 @@
+.card {
+  padding: 20px;
+  width: 300px;
+  background: #ffffff;
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+  padding: 24px 19px;
+  margin-bottom: 90px;
+}
+
+.imgs-icon {
+  width: 4em;
+  position: relative;
+  top: -57px;
+}
+
+.titulo {
+  font-family: "poppins-regular";
+  color: #7f2736;
+  margin-bottom: 56px;
+}
+
+.p-cards {
+  margin-bottom: 56px;
+}
